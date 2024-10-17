@@ -1,6 +1,6 @@
 # Rule Engine with AST
 
-## Github Link [https://github.com/kartikjoshi267/Rule-Engine-with-AST](https://github.com/kartikjoshi267/Rule-Engine-with-AST)
+## Github Link [https://github.com/Rishabh324/ZeoTap_Assessment](https://github.com/Rishabh324/ZeoTap_Assessment)
 
 ## Description
 
