@@ -15,7 +15,7 @@ const Navbar = (): React.JSX.Element => {
           </>
         ) : null}
         <div className="mx-auto py-3 px-4 sm:px-6 lg:px-8 w-full flex flex-row justify-center items-center">
-          <div className="text-3xl font-semibold text-white select-none">Rule Engine with Abstract Syntax Tree</div>
+          <div className="text-3xl font-semibold text-white select-none">Rule Engine using Abstract Syntax Tree</div>
         </div>
         {isMobile ? <div></div> : null}
       </nav>
