@@ -38,6 +38,7 @@ services:
       - /usr/app/client/node_modules
     depends_on:
       - server
+      - mongo
     ports:
       - "5173:5173"
     networks:

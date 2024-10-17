@@ -15,6 +15,7 @@ const AvailableRulesPage = (): React.JSX.Element => {
       const response = await axiosInstance.get(`${BACKEND_URI}/api/v1/rule`, {
         headers: {
           'Content-Type': 'application/json',
+          'Access-Control-Allow-Origin': '*',
         },
       });
       if (response.data.error) {
@@ -48,7 +49,7 @@ const AvailableRulesPage = (): React.JSX.Element => {
   return (
     <div className="overflow-y-auto h-full">
       <h1 className="text-xl font-semibold text-green-700 mb-2 pt-3 pl-3">Available Rules (Scroll left and right)</h1>
-      <Carousel infiniteLoop useKeyboardArrows={true} animationHandler={"slide"} showThumbs={false} labels={{
+      <Carousel infiniteLoop useKeyboardArrows={true} animationHandler={"slide"} showThumbs={true} showIndicators={true} labels={{
         leftArrow: 'Previous Rule',
         rightArrow: 'Next Rule',
         item: 'Rule'
