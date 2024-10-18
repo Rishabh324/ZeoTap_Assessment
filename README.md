@@ -34,6 +34,13 @@ The Schema for node with operand is as follows:
 }
 ```
 
+## Hosting
+
+The project is hosted in public registry on docker. You can pull the image by searching for two images on docker hub. The image names are:
+
+1. rishabhsinha324/rule-engine-client
+2. rishabhsinha324/rule-engine-server
+
 ## How to run the project
 
 ### 1. With Docker Compose
@@ -71,35 +78,35 @@ FRONTEND_URL=http://localhost:5173
 2. The project uses the following npm packages. Please make sure to install them.
 
 "dependencies": {
-    "@codeium/react-code-editor": "^1.0.12",
-    "autoprefixer": "^10.4.20",
-    "axios": "^1.7.7",
-    "carousel": "^0.0.3",
-    "postcss": "^8.4.47",
-    "prismjs": "^1.29.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-hot-toast": "^2.4.1",
-    "react-icons": "^5.3.0",
-    "react-responsive": "^10.0.0",
-    "react-responsive-carousel": "^3.2.23",
-    "react-router-dom": "^6.27.0",
-    "react18-json-view": "^0.2.8"
+"@codeium/react-code-editor": "^1.0.12",
+"autoprefixer": "^10.4.20",
+"axios": "^1.7.7",
+"carousel": "^0.0.3",
+"postcss": "^8.4.47",
+"prismjs": "^1.29.0",
+"react": "^18.3.1",
+"react-dom": "^18.3.1",
+"react-hot-toast": "^2.4.1",
+"react-icons": "^5.3.0",
+"react-responsive": "^10.0.0",
+"react-responsive-carousel": "^3.2.23",
+"react-router-dom": "^6.27.0",
+"react18-json-view": "^0.2.8"
 },
 
 "devDependencies": {
-    "@eslint/js": "^9.11.1",
-    "@types/react": "^18.3.10",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.2",
-    "eslint": "^9.11.1",
-    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
-    "eslint-plugin-react-refresh": "^0.4.12",
-    "globals": "^15.9.0",
-    "tailwindcss": "^3.4.14",
-    "typescript": "^5.5.3",
-    "typescript-eslint": "^8.7.0",
-    "vite": "^5.4.8"
+"@eslint/js": "^9.11.1",
+"@types/react": "^18.3.10",
+"@types/react-dom": "^18.3.0",
+"@vitejs/plugin-react": "^4.3.2",
+"eslint": "^9.11.1",
+"eslint-plugin-react-hooks": "^5.1.0-rc.0",
+"eslint-plugin-react-refresh": "^0.4.12",
+"globals": "^15.9.0",
+"tailwindcss": "^3.4.14",
+"typescript": "^5.5.3",
+"typescript-eslint": "^8.7.0",
+"vite": "^5.4.8"
 }
 
 3. In the `client` folder, create an `.env` file with the following content:
