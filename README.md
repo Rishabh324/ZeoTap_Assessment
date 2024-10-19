@@ -41,6 +41,9 @@ The project is hosted in public registry on docker. You can pull the image by se
 1. rishabhsinha324/rule-engine-client
 2. rishabhsinha324/rule-engine-server
 
+After pulling the image, run the docker run command and perform the port mapping by adding 5173:5173 for frontend and 5000:5000 for backend to the command.
+
+
 ## How to run the project
 
 ### 1. With Docker Compose
